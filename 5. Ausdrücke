@@ -1,0 +1,20 @@
+fun main () {
+    var inhaltFlasche = 500
+    var inhaltGlas = 40
+
+    val maxInhaltGlas = 150
+
+    // "val verfuegbarerPlatz" ist eine Variable und verweist auf die Auswertung des Ausdrucks
+    // "maxInhaltGlas - inhaltGlas" ist ein Ausdruck und wird ausgewertet
+    val verfuegbarerPlatz = maxInhaltGlas - inhaltGlas
+
+    // ausführlich geschrieben
+    // inhaltFlasche = inhaltFlasche - verfuegbarerPlatz
+    // inhaltGlas = inhaltGlas + verfuegbarerPlatz
+    // abgekürzt Variante
+    inhaltFlasche -= verfuegbarerPlatz
+    inhaltGlas += verfuegbarerPlatz
+
+    println("In der Flasche sind noch $inhaltFlasche ml vorhanden.")
+
+}
