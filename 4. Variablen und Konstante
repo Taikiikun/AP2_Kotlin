@@ -1,0 +1,25 @@
+import kotlin.math.max
+
+fun main (){
+    var inhaltFlasche = 500
+    var inhaltGlas = 40
+
+    // inhaltFlasche : Int -> inhaltFlasche ist vom Typ Integer
+    // ist korrekt, weil wir "var inhaltFlasche" haben und das ein änderbarer wert ist
+    // inhaltFlasche = 400
+
+    // geht nicht, weil falscher Typ (float bzw. double)
+    // inhaltFlasche = 380.20
+
+    val maxInhaltGlas = 150
+    
+    // geht nicht, weil "val maxInhaltGlas" nicht veränderbar ist
+    // maxInhaltGlas = 200
+
+    // wir verändern nicht den Wert 40 auf 120 sondern es wird gesagt Objekt "inhaltGlas" zeigt auf ein Objekt "40"
+    // jetzt zeigt "inhaltGlas" auf ein anderes Objekt "120"
+    // inhaltGlas = 120
+
+    inhaltGlas = maxInhaltGlas
+}
+
