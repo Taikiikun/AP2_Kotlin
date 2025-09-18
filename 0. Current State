@@ -1,6 +1,4 @@
-import kotlin.math.max
-
-fun main (){
+fun main (args: Array<String>) {
     var inhaltFlasche = 500
     var inhaltGlas = 40
 
