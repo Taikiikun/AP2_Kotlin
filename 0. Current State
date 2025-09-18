@@ -1,0 +1,10 @@
+import kotlin.math.max
+
+fun main (){
+    var inhaltFlasche = 500
+    var inhaltGlas = 40
+
+    val maxInhaltGlas = 150
+
+    inhaltGlas = maxInhaltGlas
+}
