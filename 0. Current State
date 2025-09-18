@@ -1,9 +1,14 @@
-fun main (args: Array<String>) {
+fun main () {
     var inhaltFlasche = 500
     var inhaltGlas = 40
 
     val maxInhaltGlas = 150
+    
+    val verfuegbarerPlatz = maxInhaltGlas - inhaltGlas
 
-    inhaltGlas = maxInhaltGlas
+    inhaltFlasche -= verfuegbarerPlatz
+    inhaltGlas += verfuegbarerPlatz
+
+    println("In der Flasche sind noch $inhaltFlasche ml vorhanden.")
 
 }
