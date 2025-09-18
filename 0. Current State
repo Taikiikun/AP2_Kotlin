@@ -7,4 +7,5 @@ fun main (){
     val maxInhaltGlas = 150
 
     inhaltGlas = maxInhaltGlas
+
 }
